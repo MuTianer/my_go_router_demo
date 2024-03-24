@@ -1,6 +1,6 @@
 # my_go_router_transition_demo
 
-A new Flutter project.
+Custom flutter go_router transition
 
 ## Getting Started
 
