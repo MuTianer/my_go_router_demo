@@ -126,8 +126,7 @@ class _PageBasedRouteModule<T> extends PageRoute<T>
       return CupertinoFullscreenDialogTransition(
         primaryRouteAnimation: animation,
         secondaryRouteAnimation: secondaryAnimation,
-        linearTransition:
-            CupertinoRouteTransitionMixin.isPopGestureInProgress(this),
+        linearTransition: popGestureInProgress,
         child: child,
       );
     } else {

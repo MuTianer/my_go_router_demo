@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:my_go_router_transition_demo/routes/route_config.dart';
 import 'package:my_go_router_transition_demo/common/style/text_style.dart';
+import 'package:my_go_router_transition_demo/routes/route_config.dart';
 import 'package:my_go_router_transition_demo/routes/z_route_config.dart';
-import 'package:riverpod/riverpod.dart';
 
 class TopPage extends StatelessWidget {
   const TopPage({super.key});

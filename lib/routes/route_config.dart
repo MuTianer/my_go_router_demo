@@ -1,9 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
 import 'package:my_go_router_transition_demo/page/top_page.dart';
-import 'package:my_go_router_transition_demo/common/widgets/route_module_page.dart';
 import 'package:my_go_router_transition_demo/routes/x_route_config.dart';
-import 'package:my_go_router_transition_demo/routes/y_route_config.dart';
 import 'package:my_go_router_transition_demo/routes/z_route_config.dart';
 
 // ルート名を定義するクラス
